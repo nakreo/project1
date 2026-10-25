@@ -54,3 +54,15 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# 数据库文件（含用户数据，不应提交）
+server/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# 环境变量（含密钥）
+.env
+.env.local
+.env.*.local
+server/.env
